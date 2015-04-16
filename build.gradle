@@ -46,5 +46,5 @@ sourceSets {
 
 test {
     include 'com/unitTest/**'
-	exclude 'com/unitTest/NGTest*'
+	/* exclude 'com/unitTest/NGTest*' */
 }
