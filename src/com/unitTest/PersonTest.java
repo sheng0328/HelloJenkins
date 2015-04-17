@@ -22,6 +22,9 @@ public class PersonTest extends TestCase {
 		try {
 			Person person = new Person("Eason");
 			assertEquals("Eason", person.getName());
+			
+			Person person2 = new Person("Eason2");
+			assertEquals("Eason", person2.getName());
 		} finally {
 		}
 	}
