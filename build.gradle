@@ -2,10 +2,10 @@ apply plugin: 'java'
 
 /* buildDir = 'bin' */
 
+version = '1.0'
+
 repositories {
-    flatDir {
-        dirs 'lib'
-    }
+    flatDir { dirs 'lib' }
 }
 
 dependencies {
