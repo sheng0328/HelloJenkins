@@ -2,9 +2,7 @@ package com.unitTest;
 
 import com.model.Person;
 
-import junit.framework.TestCase;
-
-public class NGTest extends TestCase {
+public class NGTest extends BaseTestCase {
 
 	public NGTest(String name) {
 		super(name);
