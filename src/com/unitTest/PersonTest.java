@@ -34,6 +34,9 @@ public class PersonTest extends TestCase {
 				log.info("key = " + key);
 			}
 			
+			String INGY_ENV = System.getenv("INGY_ENV");
+			assertEquals("INGY_ENV", "dev", INGY_ENV);
+			
 			Person person = new Person("Eason");
 			assertEquals("Eason", person.getName());
 			
