@@ -44,5 +44,6 @@ sourceSets {
 
 test {
     include 'com/unitTest/**'
-	exclude 'com/unitTest/NGTest*'
+    exclude 'com/unitTest/BaseTestCase.class'
+	exclude 'com/unitTest/NGTest.class'
 }
