@@ -33,7 +33,7 @@ public class PersonTest extends BaseTestCase {
 //			log.info("key = " + key);
 //		}
 		
-		String INGY_ENV = System.getenv("INGY_ENV");
-		assertEquals("INGY_ENV", "dev", INGY_ENV);		
+//		String INGY_ENV = System.getenv("INGY_ENV");
+//		assertEquals("INGY_ENV", "dev", INGY_ENV);		
 	}
 }
